@@ -1,8 +1,11 @@
 
-!/.config.py
-!.idea/
-!/__pycache__/
-!.git/!/venv/
+.config.py
+
+!.idea
+__pycache__/
+
+.git/
+
 !/venv/
 
 !/venv/include/
@@ -14,6 +17,7 @@
 !/venv/.gitignore
 
 !/venv/pyvenv.cfg
+
 !/migration/
 
 !/migration/versions/
@@ -26,4 +30,7 @@
 
 !/git
 
-!.env
+!.env!
+/config.py
+
+!/connect.py
